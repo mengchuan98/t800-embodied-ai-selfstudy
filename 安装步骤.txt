@@ -1,0 +1,5 @@
+1. conda create --name t800 python=3.11
+2. 激活环境走进去： conda activate t800
+3. 工具包装上： conda install -c conda-forge pinocchio
+4. pip install mujoco==3.4
+5. pip install numpy==2.3.5
