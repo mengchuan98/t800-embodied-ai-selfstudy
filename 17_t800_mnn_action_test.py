@@ -73,5 +73,6 @@ try:
     print("obs size:", obs.size)
     print("MNN action size:", action.size)
     print("first 6 actions:", action[:6].round(4).tolist())
+    print("all actions:", action[:].round(4).tolist())
 finally:
     bridge.close()
